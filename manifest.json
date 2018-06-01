@@ -1,0 +1,16 @@
+{
+    "description": "Microsoft Edgeで高知工科大学のポータルサイトを閲覧可能にします。",
+    "version": "1.0",
+    "name": "KUTPortalOnMSEdge",
+    "author": "gyaneman",
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://portal2.kochi-tech.ac.jp/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
